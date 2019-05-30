@@ -1,3 +1,4 @@
+<?php
 /**
  * Blog post redirects
  *   Redirecting WordPress posts in specific categories to a new location
@@ -45,3 +46,5 @@ function psi_blog_cat_redirect() {
 	}
 }
 add_action( 'template_redirect', 'psi_blog_cat_redirect' );
+
+?>
